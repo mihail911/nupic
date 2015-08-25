@@ -38,6 +38,7 @@ class JobInfo(object):
     self.completionReason = None
     self.startTime = startTime
     self.endTime = None
+    # Data structure containing latest metric results produced my model
     self.results = None
     # Timestamp of last update
     self.lastUpdate = None
